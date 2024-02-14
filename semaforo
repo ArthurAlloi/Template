@@ -1,1 +1,44 @@
 https://www.tinkercad.com/things/4Jr0tiLqrfC-glorious-snicket/editel?returnTo=%2Fdashboard%3Fcollection%3Ddesigns
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);//amarelo1
+  pinMode(12, OUTPUT);//verde1
+  pinMode(11, OUTPUT);//vermelho1
+  pinMode(10, OUTPUT);//amarelo2
+  pinMode(9, OUTPUT);//verde2
+  pinMode(8, OUTPUT);//vermelho2
+}
+
+void loop()
+{
+  digitalWrite(13, LOW);
+  digitalWrite(12, LOW);
+  digitalWrite(11, HIGH);
+  digitalWrite(10, LOW);
+  digitalWrite(9, HIGH);
+  digitalWrite(8, LOW);
+  delay(5000);
+  digitalWrite(13, LOW);
+  digitalWrite(12, LOW);
+  digitalWrite(11, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(9, LOW);
+  digitalWrite(8, LOW);
+  delay(5000);
+  digitalWrite(13, LOW);
+  digitalWrite(12, HIGH);
+  digitalWrite(11, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(8, HIGH);
+  delay(5000);
+  digitalWrite(13, HIGH);
+  digitalWrite(12, LOW);
+  digitalWrite(11, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(8, HIGH);
+  delay(5000);
+}
