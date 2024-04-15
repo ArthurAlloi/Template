@@ -1,0 +1,79 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $nome = prompt("Qual seu nome?")
+        $idade = prompt("Qual sua idade?")
+
+        if (($idade < 12)) {
+            document.write("<table border='1' width='800' align='center'>")
+            document.write("<tr bgcolor='sky blue' align='center'>")
+            document.write("<td width='200'><b>Nome</b></td>")
+            document.write("<td width='100'><b>Idade</b></td>")
+            document.write("<td><b>Classificação</b></td>")
+            document.write("<td><b>Representação</b></td>")
+            document.write("<tr align='center'>")
+            document.write("<td>", $nome, "</td>")
+            document.write("<td>", $idade, "</td>")
+            document.write("<td>Criança</td>")
+            document.write("<td><img src='img/nene.jpg' width='50%'></td>")
+            document.write("</table>")
+
+        }
+        else if ($idade < 21) {
+            document.write("<table border='1' width='800' align='center'>")
+            document.write("<tr bgcolor='sky blue' align='center'>")
+            document.write("<td width='200'><b>Nome</b></td>")
+            document.write("<td width='100'><b>Idade</b></td>")
+            document.write("<td><b>Classificação</b></td>")
+            document.write("<td><b>Representação</b></td>")
+            document.write("<tr align='center'>")
+            document.write("<td>", $nome, "</td>")
+            document.write("<td>", $idade, "</td>")
+            document.write("<td>Jovem</td>")
+            document.write("<td><img src='img/adolescente.jpg' width='50%'></td>")
+            document.write("</table>")
+
+        }
+
+        else if ($idade < 60) {
+            document.write("<table border='1' width='800' align='center'>")
+            document.write("<tr bgcolor='sky blue' align='center'>")
+            document.write("<td width='200'><b>Nome</b></td>")
+            document.write("<td width='100'><b>Idade</b></td>")
+            document.write("<td><b>Classificação</b></td>")
+            document.write("<td><b>Representação</b></td>")
+            document.write("<tr align='center'>")
+            document.write("<td>", $nome, "</td>")
+            document.write("<td>", $idade, "</td>")
+            document.write("<td>Adulto</td>")
+            document.write("<td><img src='img/Adulto.png' width='50%'></td>")
+            document.write("</table>")
+        }
+
+        else {
+            document.write("<table border='1' width='800' align='center'>")
+            document.write("<tr bgcolor='sky blue' align='center'>")
+            document.write("<td width='200'><b>Nome</b></td>")
+            document.write("<td width='100'><b>Idade</b></td>")
+            document.write("<td><b>Classificação</b></td>")
+            document.write("<td><b>Representação</b></td>")
+            document.write("<tr align='center'>")
+            document.write("<td>", $nome, "</td>")
+            document.write("<td>", $idade, "</td>")
+            document.write("<td>Idoso</td>")
+            document.write("<td><img src='img/Idoso.jpg' width='50%'></td>")
+            document.write("</table>")
+
+        }
+
+    </script>
+</head>
+<body>
+</body>
+</html>
